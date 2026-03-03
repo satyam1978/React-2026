@@ -1,0 +1,9 @@
+In this file we see how to perform export and import module.
+
+1. First use tyoe module in index.html or js linking file.
+
+2. Then we see export types which are @named and @default.
+
+3. In default export we export only one object or element at a time and it can be import using any name.
+
+4. In named export we must use the same name as in export file.
