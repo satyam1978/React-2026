@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #111010;
+  color: white;
+  padding: 20px 25px;
+}
+
+.parents{
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.bg{
+  width: 350px;
+  border: 17px solid #fff;
+  border-radius: 25px;
+  position: relative;
+  object-fit: cover;
+}
+
+.bg img{
+ object-fit: cover;
+  width: 100%;
+  border-radius: 3%;
+}
+
+.bg .details{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px 16px;
+  gap: 18px;
+  width: 100%;
+  backdrop-filter: blur(1.4px);
+  border: none;
+}
+
+.bg .details h2{
+  margin-bottom: 7px;
+}
+
+.bg .about{
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+}
+
+.bg .about p{
+  font-size: 13px;
+  color: #aba8a8;
+
+}
+
+.bg .about div{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 15px;
+  width: 60%;
+}
+
+.about .last p{
+  padding-left: 15px;
+}
+
+.button{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button .b1{
+  padding: 15px 30px;
+  background-color: #fff;
+  border-radius: 30px;
+  color: #111010;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-right: 15px;
+  flex-wrap: wrap;
+}
+
+.b1 span{
+  color: #6e6c6c;
+  font-size: 22px;
+}
+
+.button .b2{
+  padding: 15px 20px;
+  background-color: #393838;
+  border-radius: 30px;
+  color: #d7d4d4;
+  border: 3px solid rgb(26, 25, 25);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 19px;
+}
