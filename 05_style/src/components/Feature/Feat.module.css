@@ -1,0 +1,42 @@
+.ft_img{
+  position: relative;
+  overflow: hidden;
+  margin-top: 1px;
+}
+
+.ft_img img{
+  width: 1920px !important;
+  height: 70vh !important; 
+  object-fit: cover;
+  opacity: 0.6;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  gap: 10px;
+}
+
+.button .b1{
+  color: #fff;
+  border-color: #fff;
+
+}
+
+button .b2:hover{
+  padding: 12px 10px;
+  color: rgb(13, 13, 13);
+  background-color: white;
+}
+
+
