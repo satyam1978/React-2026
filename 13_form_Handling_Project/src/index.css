@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+body{
+  background-color: rgb(24, 23, 23);
+}
+
+.main .left{
+  width: 12%;
+  height: 100vh;
+  border-right: 3px solid grey;
+}
+
+.main .right{
+  width: 88%;
+  height: 100vh;
+}
+
+.left .brand{
+  display: flex;
+  justify-content: center;
+  padding: 6px 10px;
+  
+}
+
+.right .notes{
+  background: #939191;
+  width: 25%;
+  height: 300px;
+  border-radius: 10px;
+  outline: 4px solid rgb(58, 57, 57);
+}
+
+/* @media screen and (min-width: 720px) {
+  .left{
+    width: 20%;
+  }
+  .right{
+    width: 60%;
+  }
+} */
